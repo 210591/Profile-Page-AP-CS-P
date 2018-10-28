@@ -1,22 +1,46 @@
-<html>
-  <head>
-   <title>Wish List</title>
-   <div id="header" align="center">
-   <h1 style="color: blue;text-align: center;">hi</h1> 
-	<a href="javascript.html" class="js" alt="javascript"></a>
+<!doctype html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<title>Checklist</title>
+<meta name="description" content="The HTML5 Herald">
+<meta name="author" content="SitePoint">
+<body style="background-repeat: no-repeat;background-size: 100%,100%; background-image: linear-gradient(#303030, black);">
+<div id="header" align="center">
+<a href="index.html" class="js" alt="home"></a>
+<a href="javascript.html" class="js" alt="javascript"></a>
+<a href="list.html" class="js" alt="Jquery"></a>
+<a href="css.html" class="js" alt="CSS"></a>
+<a href="javascriptcss.html" class="js" alt="java + css"></a>
+<a href="listcss.html" class="js" alt="jquery + css"></a>        
 </div>
-   <div id="list">
+<br>
+<h1 style="color: white;text-align: center;">Arush's Profile</h1>
+<br>
+<br>
+<br>
+<center>
+<div id="page" style="background-image: linear-gradient(#909090, black); min-height: 700px;width: 60%">
+    <br>
+    
+    <img src="img/morocco.jpg" class="center" style="width: 30%">
+    <p style="color:white; margin-left: 5%;margin-right: 5%;font: times new roman; font-size: 30px">Hi, my name is Arush Kumra</p>
+    <p style="color:white; margin-left: 5%;margin-right: 5%;font: times new roman; font-size: 20px">I'm a relatively new coder, learning HTML, CSS, Javascript, and JQuery right now in AP Computer Science Principles at Hong Kong International School</p>
+    <p style="color:white; margin-left: 5%;margin-right: 5%;font: times new roman; font-size: 20px">Test Out This Checklist Below!</p>
+<p id=demo></p>
+<div id="list">
     <link rel="stylesheet" href="css/jquery.css?v=1.0">
-	<link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <header>
-      <img id="logo" src='img/3x.png' width="200" height="200" />    </header>
     <div id="container">
-      <h1>Wish List</h1>
-      <ol id="items">
+      <h1 style="color: white;">Checklist</h1>
+      <ol id="items" style="color: white">
         <!-- Items will be added here -->
       </ol>
       <span class="total"></span>
@@ -27,7 +51,15 @@
       <button id="remove-list" onclick=".value='">Clear list</button>
     </div>
     </div>
-    <footer>
-    </footer>
-  </body>
-</html>
+</div>
+</center>
+<style type="text/css">
+#page {
+    align-self: center;
+    position: relative;
+}
+</style>
+<link rel="stylesheet" href="css/styles.css?v=1.0">
+</body>
+</head>
+
